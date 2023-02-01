@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #E2E2E2;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#main {
+  width: 1000px;
+  display: flex;
+  padding-top: 15px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counties {
+  fill: none;
+}
+
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+div.tooltip {
+  position: absolute;
+  padding: 10px;
+  font: 12px 'Montserrat';
+  background: #FFD77E;
+  border: 0px;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+#title {
+  font-size: 50px;
+}
+
+#description {
+  text-align: center;
+}
